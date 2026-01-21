@@ -7,6 +7,10 @@
 👉 **Microsoft Form Registration Link:**  
 https://forms.office.com/r/NgQvXsT3JE
 
+👉 **Join the SDU WhatsApp Group (Important Updates & Support):**  
+https://chat.whatsapp.com/FdV4aASn7DnDAU1dZ8GHO7
+
+
 ---
 
 ### 🗓️ Important Dates
@@ -25,6 +29,7 @@ For any questions or clarifications, please contact:
 
 ## Overview
 The Software Development Unit (SDU) is a structured learning community focused on building practical software development skills using modern tools, prompt engineering, and ethical development practices. The program is divided into three progressive tracks: Beginner, Intermediate, and Advanced.
+
 
 ---
 
