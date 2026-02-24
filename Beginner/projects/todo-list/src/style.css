@@ -1,0 +1,49 @@
+:root{
+    --background-primary: #333
+}
+
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+    flex: 0 0;
+    padding: 0px 1em;
+}
+
+main {
+    margin: 0px 1em;
+}
+
+.todo-list{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    border-radius: 5px;
+    background-color: #333;
+    padding: .75em 1em;
+    list-style-type: none;
+}
+
+.todo-list-item {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.todo-list-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.todo-list-item-checkbox {
+    background-color: transparent;
+}
+
