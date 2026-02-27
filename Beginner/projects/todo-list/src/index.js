@@ -21,17 +21,8 @@ function updateVisual() {
       list_container.innerHTML += `
       <li class="todo-list-item">
         <div class="todo-item-name-and-done">
-          <label for="todo-check" class="todo-check-visual"></label>
           <p>${e.desc}</p>
         </div>
-
-        <input
-          type="checkbox"
-          name="Done"
-          id="todo-check"
-          class="todo-list-item-checkbox"
-          hidden
-        />
 
         <button class="delete-todo-button" id="${e.id}" onclick="delete_button(id)">
           <i class="fa-solid fa-trash"></i>

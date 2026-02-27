@@ -1,1 +1,5 @@
-Learnt how to fork a repository on Github
+Learnt basics of Git and Github
+
+Refreshed my knowledge on basic Javascript syntax
+
+Learnt to
