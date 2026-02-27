@@ -6,3 +6,5 @@
 - "does the checkbox trigger onchange?"
 - "onchange is triggered by text input fields when enter is pressed, yes?"
 - "can i instantiate objects?"
+- "How do i get an elements id, if i'm getting all elements that have a certain classname"
+- "to remove an element based on id"

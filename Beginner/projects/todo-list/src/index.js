@@ -1,11 +1,10 @@
 // I hate js bro 😭
 let i = 0;
-const todoList = [];
+let todoList = [];
+
+
 let addTodoField = document.getElementById("new-todo-field")
-
 let list_container = document.getElementById("todo-list-container");
-
-let adding = true
 
 class TodoItem {
   constructor(desc, id) {
@@ -34,12 +33,17 @@ function updateVisual() {
           hidden
         />
 
-        <button class="delete-todo-button">
+        <button class="delete-todo-button" id="${e.id}" onclick="delete_button(id)">
           <i class="fa-solid fa-trash"></i>
         </button>
       </li>
       `
-  });
+    });
+}
+
+function delete_button(id) {
+  todoList = todoList.filter(e => e.id != id)
+  updateVisual()
 }
 
 addTodoField.addEventListener("keydown", (e) => {
@@ -48,7 +52,6 @@ addTodoField.addEventListener("keydown", (e) => {
       const newTodo = new TodoItem(addTodoField.value, i)
       addTodoField.value = ""
       addTodo(newTodo);
-      adding = false
     }
 })
 
