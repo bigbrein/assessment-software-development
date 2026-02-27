@@ -1,32 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <script src="index.js" defer></script>
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Basic functionality:
         Add and remove todos
         check and uncheck todos -->
     <header>
-        <h1>
-            ToDo
-        </h1>
-        <nav>
-
-        </nav>
+      <h1>ToDo</h1>
+      <nav></nav>
     </header>
 
     <main>
-        <ul class="todo-list">
-            <li class="todo-list-item">
-                <p>Get New ID Card</p>
-                <input type="checkbox" name="Done" id="done" class="todo-list-item-checkbox">
-            </li>
-        </ul>
+      <div class="add-todo-field-container">
+        <input type="text" id="new-todo-field" autocomplete="off" />
+      </div>
+      <ul class="todo-list" id="todo-list-container">
+        <!-- <li class="todo-list-item">
+          <div class="todo-item-name-and-done">
+            <label for="todo-check" class="todo-check-visual"></label>
+            <p>Get New ID Card</p>
+          </div>
+
+          <input
+            type="checkbox"
+            name="Done"
+            id="todo-check"
+            class="todo-list-item-checkbox"
+            hidden
+          />
+
+          <button class="delete-todo-button">
+            <span class="material-symbols-outlined"> delete </span>
+          </button>
+        </li> -->
+      </ul>
     </main>
-</body>
+  </body>
 </html>

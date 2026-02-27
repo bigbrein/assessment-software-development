@@ -1,2 +1,8 @@
-How to fork a repo on github
-flex property css
+- "How to fork a repo on github"
+- "flex property css"
+- "do objects work as data classes in javascript"
+- "can i pass data like an item's id from html to javascript"
+- "multi line string in js"
+- "does the checkbox trigger onchange?"
+- "onchange is triggered by text input fields when enter is pressed, yes?"
+- "can i instantiate objects?"
